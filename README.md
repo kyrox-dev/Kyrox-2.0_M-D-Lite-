@@ -1,21 +1,21 @@
 
-<h1 align="center">🚀 XTREME XMD</h1>
+<h1 align="center">🚀 Kyrox-bot multi device 🤖☑️</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/jfbed2.jpg" width="300"/><br>
+  <img src="https://i.postimg.cc/jSY1Y03n/Screenshot-20250731-215658.png="300"/><br>
   <b>Fast, Powerful, and Stylish WhatsApp Bot built for fun and performance.</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/PrinceXtremeX/XTREME-XMD"><img src="https://img.shields.io/github/stars/PrinceXtremeX/XTREME-XMD?style=flat-square&color=yellow"></a>
-  <a href="https://github.com/PrinceXtremeX/XTREME-XMD/fork"><img src="https://img.shields.io/github/forks/PrinceXtremeX/XTREME-XMD?style=flat-square&color=lightblue"></a>
-  <a href="https://whatsapp.com/channel/0029Vb9qyTY47XeJ7i0wcQ40"><img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat-square&logo=whatsapp"></a>
-  <a href="https://github.com/PrinceXtremeX"><img src="https://img.shields.io/badge/Dev-Prince Xtreme-blueviolet?style=flat-square"></a>
+  
+  <a href="https://github.com/kyrox-tech /kyrox-2.0_M-D.litefork"><img src="https://img.shields.io/github/forks/kyrox-tech/kyrox-2.0_M-D?style=flat-square&color=lightblue"></a>
+  <a href="https://whatsapp.com/channel/0029VbBB2LTFi8xaGjuupv2a"><img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat-square&logo=whatsapp"></a>
+  <a href="https://github.com/kyrox-Dev👺"><img src="https://img.shields.io/badge/Dev-Kyrox👺-blueviolet?style=flat-square"></a>
 </p>
 
-**sᴇssɪᴏɴ ɪᴅ💫**
+**Kyrox-Dev 👺**
 
-[![XTREME XMD SESSION](https://img.shields.io/badge/XTREME%20-XMD%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-v2-session.onrender.com)
+[![XTREME XMD SESSION](https://img.shields.io/badge/kyrox%20-2.0%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-v2-session.onrender.com)
 ---
 
 🧠 **ғᴇᴀᴛᴜʀᴇs**
@@ -101,10 +101,10 @@ jobs:
 
 ---
 
-🧰 ᴍᴀɴᴜᴀʟ ɪɴsᴛᴀʟʟᴀᴛɪᴏɴ
+Manual Configuration 🤖
 
 ```ʙᴀsʜ
-git https://github.com/PrinceXtremeX/XTREME-XMD
+git https://github.com/
 cd XTREME-XMD
 npm install
 node .
@@ -114,15 +114,15 @@ node .
 
 🔗 ᴜsᴇғᴜʟ ʟɪɴᴋs
 
-[![Join Our WhatsApp Channel](https://img.shields.io/badge/Join%20Channel-WhatsApp-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb9qyTY47XeJ7i0wcQ40)
+[![Join Our WhatsApp Channel](https://img.shields.io/badge/Join%20Channel-WhatsApp-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbBB2LTFi8xaGjuupv2a)
 ---
 
 👑 Credits
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ xᴛʀᴇᴍᴇ*  
-> ᴄᴏɴᴛᴀᴄᴛ: `528145550802`
+> ᴄᴏɴᴛᴀᴄᴛ: `50935420142`
 
 ---
 
-*©️ 2025 – xᴛʀᴇᴍᴇ-xᴍᴅ | ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ*
+*©️ 2025 – powered by kyrox-Dev👺*
 
