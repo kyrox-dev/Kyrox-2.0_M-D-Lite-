@@ -15,7 +15,7 @@
 
 **Kyrox-Dev 👺**
 
-[![Kyrox-2.0_M-D SESSION](https://img.shields.io/badge/kyrox%20-2.0%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-v2-session.onrender.com)
+[![Kyrox-2.0_M-D SESSION](https://img.shields.io/badge/kyrox%20-2.0%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://kyrox-2-0-m-d.onrender.com)
 ---
 
 🧠 **ғᴇᴀᴛᴜʀᴇs**
