@@ -47,9 +47,9 @@ OWNER_NAME: process.env.OWNER_NAME || "Kyrox-Dev 👺",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© powered by Kyrox-Dev👺*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/jSY1Y03n/Screenshot-20230531-215658.png",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> *ᴢɪɴᴅᴀ ʜᴜɴ ʏᴀʀ xᴛʀᴇᴍᴇ xᴍᴅ*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> *hello,your session kyrox-2.0_M-D is connected with success🌹☑️⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
