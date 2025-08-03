@@ -49,7 +49,7 @@
 ᴅᴇᴘʟᴏʏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴜsɪɴɢ `.yml` ᴡᴏʀᴋғʟᴏᴡ ɪɴsɪᴅᴇ ɢɪᴛʜᴜʙ ᴀᴄᴛɪᴏɴs.
 
 
-**ɢɪᴛʜᴜʙ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ** 
+**kyrox-2.0_M-D👺** 
 
 ```
 name: Node.js Auto-Restart CI
@@ -105,7 +105,7 @@ Manual Configuration 🤖
 
 ```ʙᴀsʜ
 git https://github.com/
-cd XTREME-XMD
+cd kyrox-2.0_M-D
 npm install
 node .
 ```
