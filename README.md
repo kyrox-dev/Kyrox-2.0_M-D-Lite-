@@ -15,7 +15,7 @@
 
 **Kyrox-Dev 👺**
 
-[![XTREME XMD SESSION](https://img.shields.io/badge/kyrox%20-2.0%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-v2-session.onrender.com)
+[![Kyrox-2.0_M-D SESSION](https://img.shields.io/badge/kyrox%20-2.0%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-v2-session.onrender.com)
 ---
 
 🧠 **ғᴇᴀᴛᴜʀᴇs**
@@ -35,7 +35,7 @@
 
 🌐 ʀᴇɴᴅᴇʀ
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/PrinceXtremeX/XTREME-XMD.git)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kyrox-tech/kyrox-2?0_M-D.git)
 
 ☁️ ᴋᴏʏᴇʙ
 
