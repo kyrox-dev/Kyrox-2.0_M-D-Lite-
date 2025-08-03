@@ -1,11 +1,33 @@
+// index.js
+const { default: makeWASocket, useSingleFileAuthState } = require('@adiwajshing/baileys')
+const express = require('express')
+const app = express()
+const PORT = process.env.PORT || 3000
 
-const express = require('express');
-const app = express();
+const { state, saveState } = useSingleFileAuthState('./session.json')
 
-const pairRoute = require('./pair');
-app.use('/pair', pairRoute);
+async function startBot() {
+  const sock = makeWASocket({
+    auth: state,
+    printQRInTerminal: false,
+  })
 
-app.listen(process.env.PORT || 8000, () => {
-  console.log('Serveur exécuté');
-});
+  sock.ev.on('connection.update', update => {
+    if (update.qr) {
+      qr = update.qr
+    }
+  })
 
+  sock.ev.on('creds.update', saveState)
+
+  app.get('/qr', (_, res) => {
+    if (qr) {
+      res.send(`<img src="https://api.qrserver.com/v1/create-qr-code/?data=qr" />`)
+     else 
+      res.send('QR code not available yet')
+    )
+
+  app.listen(PORT, () => console.log(`Server running on port{PORT}`))
+}
+
+startBot()
