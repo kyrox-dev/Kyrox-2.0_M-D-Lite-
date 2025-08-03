@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By Kyrox-Dev👺 crafting core ai features on whatsapp",
   "main": "index.js",
   "scripts": {
-    "start": "index.js-monitoring --attach --name XTREME-XMD",
+    "start": "index.js -monitoring --attach --name Kyrox-2.0_M-D",
     "stop": "pm2 stop kyrox-2.0_M-D",
     "restart": "pm2 restart kyrox-2.0_M-D"
   },
