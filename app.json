@@ -1,7 +1,7 @@
 {
-  "name": "XTREME-XMD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ xᴛʀᴇᴍᴇ",
-  "logo": "https://files.catbox.moe/jfbed2.jpg",
+  "name": "Kyro-2.0_M-D👺",
+  "description": "powered by Kyrox-Dev👺",
+  "logo": "https://i.postimg.cc/jSY1Y03n/Screenshot-20230531-215658.png",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://files.catbox.moe/jfbed2.jpg"
+      "value": "https://i.postimg.cc/jSY1Y03n/Screenshot-20230531-215658.png"
     }, 
     
     "ALIVE_MSG": {
@@ -81,8 +81,8 @@
 
     "AUTO_REACT": {
       "description": "Make it true if you want bot AutoReact.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
 
     "OWNER_REACT": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦ 𝗫𝗧𝗥𝗘𝗠𝗘 𝗫𝗠𝗗 ✦"
+      "value": "kyrox-2.0_M-D👺"
     }, 
 
     "HEART_REACT": {
