@@ -10,10 +10,10 @@
   
   <a href="https://github.com/kyrox-tech /kyrox-2.0_M-D.litefork"><img src="https://img.shields.io/github/forks/Kyrox-Dev/kyrox-2.0_M-D?style=flat-square&color=lightblue"></a>
   <a href="https://whatsapp.com/channel/0029VbBB2LTFi8xaGjuupv2a"><img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat-square&logo=whatsapp"></a>
-  <a href="https://github.com/kyrox-Dev👺"><img src="https://img.shields.io/badge/Dev-Kyrox👺-blueviolet?style=flat-square"></a>
+  <a href="https://github.com/kyrox-dev/Kyrox-2.0_M-D-Lite-"><img src="https://img.shields.io/badge/Dev-Kyrox👺-blueviolet?style=flat-square"></a>
 </p>
 
-**https://github.com/kyrox-dev/Kyrox-2.0_M-D-Lite-/edit/main/README.md👺**
+**Kyrox-Dev 👺**
 
 [![Kyrox-2.0_M-D SESSION](https://img.shields.io/badge/kyrox%20-2.0%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://kyrox-2-0-m-d.onrender.com)
 ---
