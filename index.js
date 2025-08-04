@@ -47,7 +47,7 @@ async function startBot() {
 
   app.get('/qr', (_, res) => {
   if (qr) {
-    res.send(<img src="https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qr)}" />)
+    res.send('<img src="https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qr)}" />')
   } else {
     res.send(QR code not available yet)
   }
