@@ -18,46 +18,19 @@ const path = require('path')
       process.exit(1)
     }
   }
+  const { default: makeWASocket, useSingleFileAuthState } = require("@whiskeysockets/baileys");
+   const { Boom } = require("@hapi/boom");
+   const fs = require("fs");
 
-  _0xcheck(_0xk1, _0xk3)
-})()
-const { default: makeWASocket, useSingleFileAuthState } = require('@adiwajshing/baileys')
-const express = require(express)
+   const { state, saveState } = useSingleFileAuthState('./session.json');
 
-const app = express()
-const PORT = process.env.PORT || 3000
+   async function startBot() {
+     const sock = makeWASocket({
+       auth: state,
+       printQRInTerminal: true,
+     });
 
-const { state, saveState } = useSingleFileAuthState('./session.json')
+     sock.ev.on("creds.update", saveState);
+   }
 
-let qr = null
-
-async function startBot() {
-  const sock = makeWASocket({
-    auth: state,
-    printQRInTerminal: false,
-  })
-
-  sock.ev.on(connection.update, update => {
-    if (update.qr) {
-      qr = update.qr
-    }
-  })
-
-  sock.ev.on(creds.update, saveState)
-
-  app.get('/qr', (_, res) => {
-  if (qr) {
-    res.send('<img src="https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qr)}" />')
-  } else {
-    res.send("QR code not available yet")
-  }
-})
-
-  app.listen(PORT, () => {
-  console.log(`Serveur exécuté sur le port ${PORT}`);
-});
-
-}
-
-startBot()
-
+   startBot();
