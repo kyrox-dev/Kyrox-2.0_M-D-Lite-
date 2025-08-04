@@ -53,8 +53,9 @@ async function startBot() {
   }
 })
 
-  app.listen(PORT, () => 
-console.log(`Serveur exécuté sur le port ${PORT}`);
+  app.listen(PORT, () => {
+  console.log(`Serveur exécuté sur le port ${PORT}`);
+});
 
 }
 
