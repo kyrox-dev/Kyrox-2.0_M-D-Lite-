@@ -1,6 +1,6 @@
 const readline = require('readline');
 
-const user = 'Dave';
+const user = 'kyrox-dev👺';
 const mode = 'public';
 const prefix = '.';
 const version = '1.0.0';
