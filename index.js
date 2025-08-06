@@ -1,36 +1,170 @@
-const fs = require('fs')
-const path = require('path')
+const readline = require('readline');
 
-(function () {
-  const _0xk1 = Buffer.from('S3lyb3gtMi4wX00tRC1MaXRl').toString('utf8')
-  const _0xk2 = 'S1lSMFhfTE9DSw=='
-  const _0xk3 = Buffer.from(_0xk2, 'base64').toString('utf8')
+const user = 'Dave';
+const mode = 'public';
+const prefix = '.';
+const version = '1.0.0';
+const plugins = 304;
+const dev = 'Kyrox-Dev👺';
 
-  const _0xcheck = (a, b) => {
-    if (a !== _0xk1 || b !== _0xk3) {
-      console.log('\x1b[31m%s\x1b[0m', '❌ Code compromis ou bot non autorisé.')
-      // Supprimer des fichiers clés (exemple)
-      try {
-        fs.unlinkSync(path.join(__dirname, 'index.js'))
-        fs.unlinkSync(path.join(__dirname, 'package.json'))
-      } catch {}
-      // Quitter l'app
-      process.exit(1)
-    }
+const menu = `
+╭──────────── Kyrox-2.0_M-D Bot Menu ────────────╮
+│ 1. 📜 Show main menu                          │
+│ 2. 🔍 Bot info                                │
+│ 3. 🗞️ Latest news                             │
+│ 4. 👤 Contact owner                           │
+╰──────────────────────────────────────────────╯
+`;
+
+console.log(menu);
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Choose an option (1-4): ', (answer) => {
+  switch(answer) {
+    case '1':
+      console.log(`
+📜 Main Menu
+━━━━━━━━━━━━━━━━━━━
+
+╭─ 🧰 MISC
+│ .ANTIDELETE
+│ .AUDIO
+│ .BOT
+│ .COUPLEPP
+│ .GETIMAGE
+│ .OWNER
+│ .STICKERSEARCH
+│ .UPDATE
+│ .VV3
+│ .WEB
+╰────────────
+
+╭─ ⚙️ SETTINGS
+│ .ALWAYS-ONLINE
+│ .ANTI-BAD
+│ .ANTICALL
+│ .ANTIPROMOTE
+│ .AUTO-REACT
+│ .AUTO-RECORDING
+│ .AUTO-REPLY
+│ .AUTO-SEEN
+│ .AUTO-STICKER
+│ .AUTO-TYPING
+│ .AUTO-VOICE
+│ .MENTION-REPLY
+│ .MODE
+│ .READ-MESSAGE
+│ .SETPREFIX
+│ .STATUS-REACT
+╰────────────
+
+╭─ 🎨 TEXT EFFECTS
+│ .BLACKPINK
+│ .BOOM
+│ .BULB
+│ .CASTLE
+│ .CAT
+│ .CLOUDS
+│ .DEADPOOL
+│ .DEVILWINGS
+│ .DRAGONBALL
+│ .ERASER
+│ .FROZEN
+│ .FUTURISTIC
+│ .GALAXY
+│ .HACKER
+│ .LEAF
+│ .LUXURY
+│ .NARUTO
+│ .NEONLIGHT
+│ .NIGERIA
+│ .PAINT
+│ .PHLOGO
+│ .PORNHUB
+│ .SADGIRL
+│ .SANS
+│ .SUNSET
+│ .TATOO
+│ .THOR
+│ .TYPOGRAPHY
+│ .VALORANT
+│ .ZODIAC
+╰────────────
+
+╭─ 🎭 FUN
+│ .ANIMEGIRL
+│ .ANIMEGIRL1
+│ .ANIMEGIRL2
+│ .ANIMEGIRL3
+│ .ANIMEGIRL4
+│ .ANIMEGIRL5
+│ .ANIME3
+│ .ANIME4
+│ .ANIME5
+│ .SREPO
+│ .SS
+│ .WEATHER
+╰────────────
+
+╭─ 🧾 MENU
+│ .ADULT
+│ .AIMENU
+│ .ANIMEMENU
+│ .CONVERTMENU
+│ .DLMENU
+│ .FUNMENU
+│ .GITHUBSTALK
+│ .GROUPMENU
+│ .HELP
+│ .LIST
+│ .LOGO
+│ .MAINMENU
+│ .MENU
+│ .MENU2
+│ .MENU3
+│ .OTHERMENU
+│ .OWNERMENU
+│ .REACTIONS
+╰────────────
+      `);
+      break;
+
+    case '2':
+      console.log(`
+🔍 Bot Info
+━━━━━━━━━━━━━━━━━━━
+* USER     : @user
+* MODE     :{mode}
+* PREFIX   : prefix
+* VERSION  :{version}
+* PLUGINS  : plugins
+* DEV      :{dev}
+      `);
+      break;
+
+    case '3':
+      console.log(`
+🗞️ Latest news
+──────────────
+• No news available yet.
+      `);
+      break;
+
+    case '4':
+      console.log(`
+👤 Contact owner
+────────────────
+Phone: +50935420142
+      `);
+      break;
+
+    default:
+      console.log("Invalid option. Please choose between 1 and 4.");
   }
-  const { default: makeWASocket, useSingleFileAuthState } = require("@whiskeysockets/baileys");
-   const { Boom } = require("@hapi/boom");
-   const fs = require("fs");
 
-   const { state, saveState } = useSingleFileAuthState('./session.json');
-
-   async function startBot() {
-     const sock = makeWASocket({
-       auth: state,
-       printQRInTerminal: true,
-     });
-
-     sock.ev.on("creds.update", saveState);
-   }
-
-   startBot();
+  rl.close();
+});
